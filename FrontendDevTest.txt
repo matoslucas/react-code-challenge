@@ -1,0 +1,19 @@
+﻿REACT / Website - UI Test
+
+Skillset 1-2 React State
+
+1) Create a calculator form with inputs for “Monthly Payments”, “Principal”, “Rate”, “Compounds per Year”, 
+and a label for the resulting “Loan Payment” calculation. 
+
+2) Use the values from the 4 inputs to calculate the loan payment using this formula:
+ (Principal*Rate/100/Compounds per year)/(1-(1+Rate/100/Compounds per year)^(-Monthly Payments)).
+
+2.1) This calculation should automatically update when any value changes from the inputs (because it’s using React state).
+
+2.2) The Loan Payment function can be substituted for any calculation you would like to perform.
+
+3) Create a component in a second file that takes a function as a parameter that will change its parent’s state. IE: input element, dropdown control, or button.
+
+NOTE: Everything should be strongly typed (using typescript).
+
+Deliverable: Single page web application with the UI components described above.
